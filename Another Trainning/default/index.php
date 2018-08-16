@@ -5,28 +5,23 @@
   <title>Document</title>
 </head>
 <body>
-  <div id="root">
+  <div id="vue-app">
 
   </div>
   <script src="assets/js/vue.js"></script>
   <script>
-
-    var obj = new Vue({
-
-      el: '#root',
-
+  new Vue({
+      el: "#vue-app",
       data: {
 
-
       },
-
       methods: {
 
+      },
+      computed: {
 
       }
-
     });
-
   </script>
 </body>
 </html>
