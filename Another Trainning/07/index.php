@@ -10,7 +10,7 @@
   </div>
   <script src="assets/js/vue.js"></script>
   <script>
-  new Vue({
+  var app = new Vue({
       el: "#vue-app",
       data: {
 
